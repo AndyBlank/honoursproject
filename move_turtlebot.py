@@ -20,7 +20,7 @@ global serialInst
 def move_forward():
         global twist
         twist = Twist()
-        twist.linear.x =-1
+        twist.linear.x =1
         twist.linear.y=0
         twist.linear.z=0
 
@@ -32,6 +32,7 @@ def turn_right():
         twist = Twist()
         twist.linear.x=0
         twist.linear.y=0
+
         twist.linear.z=0
         
         twist.angular.x=0
